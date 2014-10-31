@@ -1,6 +1,10 @@
 <html>
-    <head>
-		<script>
+<body>
+
+<canvas id="myCanvas" width="500" height="500" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
 
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
@@ -11,13 +15,17 @@ ctx.lineTo(150, 150);
 ctx.lineTo(150, 50);
 ctx.moveTo(450, 50);
 ctx.lineTo(450, 150);
-ctx.lineTo(100, 150);
+ctx.lineTo(350, 150);
+ctx.lineTo(350, 50);
+ctx.moveTo(250, 200);
+ctx.lineTo(250, 300);
+ctx.moveTo(100, 350);
+ctx.lineTo(100, 450);
+ctx.lineTo(400, 450);
+ctx.lineTo(400, 350);
 ctx.stroke();
 
 </script>
-    </head>
-    
-    <body>
-	
-    </body>
-</html>    
+
+</body>
+</html>
